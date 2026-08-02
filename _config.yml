@@ -26,8 +26,8 @@ author:
   avatar           : "kimia_profile.jpg"
   name             : "Kimia Mohammadnezhad"
   pronouns         : # example: "she/her"  
-  bio              : "Remote Sensing Researcher specializing in cryosphere science, multi-sensor data fusion, and machine learning"
-  location         : "Earth"
+  bio              : "Cryosphere & Remote Sensing Researcher"
+  # location         : ""
   employer         : "Brown University"
   uri              : # URL
   email            : "none@example.org" 
