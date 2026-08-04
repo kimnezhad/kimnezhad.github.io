@@ -1,6 +1,6 @@
 ---
-title: "Portfolio item number 3"
-excerpt: "Short description of portfolio item number 2 <br/><img src='/images/500x300.png'>"
+title: "Master's Thesis - Geospatial Machine Learning for Environmental Health"
+excerpt: "Integrated multi-temporal satellite imagery (Hyperion, Landsat), meteorological data, and epidemiological records to model complex spatial patterns of stomach cancer in Golestan Province. <br/><img src='/images/500x300.png'>"
 collection: portfolio
 ---
 
