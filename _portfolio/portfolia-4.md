@@ -1,6 +1,6 @@
 ---
-title: "Portfolio item number 4"
-excerpt: "Short description of portfolio item number 2 <br/><img src='/images/500x300.png'>"
+title: "Bachelor’s Thesis - Long-Term Climate Monitoring: Two Decades of Drought Dynamics"
+excerpt: "Analyzed 20 years of MODIS satellite observations to assess drought dynamics and changing spatial climate patterns across Iran. <br/><img src='/images/500x300.png'>"
 collection: portfolio
 ---
 
