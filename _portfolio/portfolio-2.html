@@ -4,8 +4,23 @@ excerpt: "Evaluating and quantifying biases in Passive Microwave sea-ice concent
 collection: portfolio
 ---
 
-**Core Skills:** *ICESat-2 Altimetry, Passive Microwave, Multi-sensor Validation, Cryosphere Data Analysis*
-***
+**Core Skills:** *Python API Development, Data Collocation Engineering, ICESat-2 Altimetry, Synthetic Aperture Radar (SAR), Passive Microwave Data Analysis*
 
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+## Scientific Context & The Problem
+Observational products that convert passive microwave (PM) emissions into sea ice concentration (SIC) are critical for understanding polar climate change. However, algorithms and sensors often lead to differing estimations of Earth's sea ice cover. In Antarctica, where sea ice loss since 2016 has exceeded 2 million km², inter-algorithmic and inter-sensor biases lead to massive discrepancies: differences in overall Sea Ice Area (SIA) of up to 1.7 million km², and Marginal Ice Zone area by up to 4.7 million km². 
+
+Using 6 years of coincident data from ICESat-2, our research team identified that this bias stems from an underestimation of SIC in thin ice zones by commonly used SSMI/S-based products.
+
+## My Contributions & Technical Methodology
+During my research at Brown University, I worked alongside my supervisor and Dr. Tavri to help validate and parameterize these biases. My primary role focused on building the data engineering pipeline required to analyze the ice surface:
+
+* **API Development for Data Collocation:** I built a custom Python API designed to automatically obtain and collocate Sentinel-1 SAR data with overlapping ICESat-2 altimetry tracks across the Southern Ocean.
+* **SAR Data Analysis:** I contributed to the collection, extraction, and interpretation of the collocated SAR and altimetry data to provide high-resolution context to the PM emissions.
+* **Algorithm Parameterization:** The collocated track datasets I engineered enabled the team to successfully parameterize the algorithmic biases as a function of SSMI/S sea ice concentration.
+
+## Outcomes & Publication
+This data engineering pipeline directly contributed to the creation of a unified SIC product that resolves persistent biases in PM-SIC data. 
+
+* **Publication:** *"Consistent Antarctic sea ice concentration biases from passive microwave satellites resolved via ICESat-2 altimetry"* (Co-authored, currently under review).
+* **Preprint:** Available on [Research Square](https://www.researchsquare.com/article/rs-6272536/v1).
