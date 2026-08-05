@@ -1,6 +1,6 @@
 ---
 title: "Master's Thesis - Geospatial Machine Learning for Environmental Health"
-excerpt: "Integrated multi-temporal satellite imagery (Hyperion, Landsat), meteorological data, and epidemiological records to model complex spatial patterns of stomach cancer in Golestan Province. <br/><img src='/images/500x300.png'>"
+excerpt: "Integrated multi-temporal satellite imagery (Hyperion, Landsat), meteorological data, and epidemiological records to model complex spatial patterns of stomach cancer in Golestan Province. <br/><br/> <b>Skills:</b> <i>Hyperion , Landsat 8, Meteorology data, Climate modeling, Multi-spectral/Hyperspectral RS, GIS, Spatial Pattern Analysis, Epidemiology, Machine Learning/Deep Learning, Interdisciplinary Research</i>"."
 collection: portfolio
 ---
 
