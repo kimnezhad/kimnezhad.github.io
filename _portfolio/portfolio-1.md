@@ -4,7 +4,10 @@ excerpt: "Developing a massive-scale machine learning pipeline to map sea ice pr
 collection: portfolio
 ---
 
-<p><b>Core Skills:</b> <i>Machine Learning Architecture Evaluation, Geospatial Feature Engineering, ESA WorldCover Masking, Handling Extreme Class Imbalance, Python MLOps</i></p>
+<p><b>Core Competencies & Skills:</b><br/>
+• <b>Remote Sensing:</b> SAR Preprocessing (Sentinel-1), Multi-Sensor Data Fusion, Spatial Texture Engineering, ESA Land-Cover Masking<br/>
+• <b>Cryosphere Science:</b> Sea Ice Concentration & Dynamics, CIS Operational Ice Charts, Western Arctic Basin<br/>
+• <b>Machine Learning & Big Data:</b> Big Dataset Handling (100M+ km² cumulative scale), Deep Learning Exploration, LightGBM Baselines, Handling Extreme Class Imbalance</p>
 
 <hr>
 
