@@ -1,6 +1,6 @@
 ---
 title: "Bachelor’s Thesis - Long-Term Climate Monitoring: Two Decades of Drought Dynamics"
-excerpt: "Analyzed 20 years of MODIS satellite observations to assess drought dynamics and changing spatial climate patterns across Iran. <br/><br/> <b>Skills:</b> <i>MODIS, Time-Series Analysis, Environmental Monitoring, Optical Remote Sensing.</i>".
+excerpt: "Analyzed 20 years of MODIS satellite observations to assess drought dynamics and changing spatial climate patterns across Iran. <br/><br/> <b>Skills:</b> <i>MODIS, Time-Series Analysis, Environmental Monitoring, Optical Remote Sensing.</i>"
 collection: portfolio
 ---
 
