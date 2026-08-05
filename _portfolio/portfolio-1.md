@@ -1,7 +1,6 @@
 ---
-title: "Deep Learning & Multi-Sensor Fusion for Automated Sea-Ice Classification"
-excerpt: "An end-to-end pipeline for predicting sea-ice concentration and stage of development, focusing on resolving label mismatches between high-resolution Sentinel-1 SAR and generalized human ice charts. <br/><br/> <b>Skills:</b> <i> Sentinel-1 SAR, SAR Preprocessing,  Machine Learning , Class Imbalance, Spatial Uncertainty</i>."
-
+title: "Ongoing Research: High-Resolution SAR Sea Ice Classification Pipelines"
+excerpt: "Developing a massive-scale machine learning pipeline to map sea ice probability across the Western Arctic using Sentinel-1 SAR and Canadian Ice Service (CIS) charts. Currently exploring advanced feature engineering, gradient boosting baselines, and Deep Learning architectures. <br/><br/> <b>Skills:</b> <i>Machine Learning, SAR Feature Engineering, Deep Learning (WIP), Geospatial Big Data</i>"
 collection: portfolio
 ---
 
