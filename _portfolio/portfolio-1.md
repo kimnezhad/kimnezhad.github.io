@@ -9,7 +9,7 @@ collection: portfolio
 • <b>Cryosphere Science:</b> Sea Ice Concentration & Dynamics, CIS Operational Ice Charts, Western Arctic Basin<br/>
 • <b>Machine Learning & Big Data:</b> Big Dataset Handling (100M+ km² cumulative scale), Deep Learning Exploration, LightGBM Baselines, Handling Extreme Class Imbalance</p>
 
-<hr>
+
 
 <h2>The Research Objective</h2>
 
