@@ -4,7 +4,7 @@ excerpt: "Analyzed 20 years of MODIS satellite observations to assess drought dy
 collection: portfolio
 ---
 **Core Skills:** *Multispectral Remote Sensing (MODIS), Time-Series Analysis, Spatiotemporal Modeling, Vegetation Indexing (VCI, TCI, VHI, SVI)*
-***
+
 
 ## Project Overview
 Drought is a natural phenomenon whose impacts can be significantly mitigated through consistent and accurate monitoring. This research, conducted for my B.Sc. in Civil-Geomatics Engineering at K. N. Toosi University of Technology, aimed to investigate and quantify the drought situation across Iran. By leveraging remote sensing techniques, the project extracted spatial information with high accuracy and minimal cost, mapping drought dynamics over a comprehensive 20-year period (1999–2019).
