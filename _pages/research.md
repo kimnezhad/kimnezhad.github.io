@@ -15,10 +15,6 @@ author_profile: true
       <div class="archive__item-excerpt">
         {{ item.excerpt | markdownify }}
       </div>
-      
-      <a href="{{ item.url | relative_url }}" style="text-decoration: underline; font-weight: bold;">
-        Review Full Methodology
-      </a>
     </article>
   {% endfor %}
 </div>
