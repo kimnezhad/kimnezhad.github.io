@@ -24,16 +24,14 @@ author_profile: true
 
 <h2>Education</h2>
 <p><strong>M.Sc. in Geomatics – Remote Sensing Engineering</strong> <br>
-<em>K. N. Toosi University of Technology, Tehran, Iran</em> | 2019 – 2022 <br>
-GPA: 3.77/4.00</p>
+<em>K. N. Toosi University of Technology, Tehran, Iran</em> | 2019 – 2022</p>
 <ul>
   <li><strong>Thesis:</strong> Integrated epidemiology, remote sensing, and GIS to analyze spatial patterns of stomach cancer in Golestan Province.</li>
   <li>Combined multi-temporal Hyperion and Landsat imagery with meteorological data, applying advanced geospatial and machine-learning methods.</li>
 </ul>
 
 <p><strong>B.Sc. in Civil – Geomatics Engineering</strong> <br>
-<em>K. N. Toosi University of Technology, Tehran, Iran</em> | 2015 – 2019 <br>
-GPA: 3.03/4.00</p>
+<em>K. N. Toosi University of Technology, Tehran, Iran</em> | 2015 – 2019</p>
 <ul>
   <li><strong>Thesis:</strong> Assessment of drought dynamics across Iran using two decades of MODIS satellite observations.</li>
 </ul>
@@ -49,11 +47,21 @@ GPA: 3.03/4.00</p>
 </ul>
 <hr>
 
-<h2>Selected Publications & Presentations</h2>
+<h2>Publications & Presentations</h2>
+<p><em>For detailed abstracts and links, please visit the <a href="/publications/">Publications Page</a>.</em></p>
+
+<h3>Journal Articles & Preprints</h3>
 <ul>
-  <li><strong>Mohammadnezhad, K.</strong>, et al. <em>"Antarctic sea-ice-concentration biases in passive-microwave satellite products, evaluated using ICESat-2 altimetry."</em> (Under Review). DOI: 10.21203/rs.3.rs-6272536/v1.</li>
-  <li>Presentations at <strong>AGU Fall Meetings (2024, 2025)</strong> on topics including automated SAR classification of Antarctic sea ice, correcting biases in passive-microwave-derived products, and global gridded sea-ice concentration variability.</li>
-  <li>Published findings on the machine-learning modeling of epidemiological data and remote-sensing analysis of heavy-metal soil contamination related to gastric-cancer risk factors.</li>
+  <li><em>Consistent Antarctic sea ice concentration biases from passive microwave satellites resolved via ICESat-2 altimetry.</em> (Preprint). DOI: <a href="https://doi.org/10.21203/rs.3.rs-6272536/v1" target="_blank">10.21203/rs.3.rs-6272536/v1</a></li>
+  <li><em>Modeling Epidemiology Data with Machine Learning Technique to Detect Risk Factors for Gastric Cancer.</em> Journal of Gastrointestinal Cancer, 2023. DOI: <a href="https://doi.org/10.1007/s12029-023-00952-1" target="_blank">10.1007/s12029-023-00952-1</a></li>
+  <li><em>Investigating heavy metals soil contamination state on the rate of stomach cancer using remote sensing spectral features.</em> Environmental Monitoring and Assessment, 2023. DOI: <a href="https://doi.org/10.1007/s10661-023-11234-5" target="_blank">10.1007/s10661-023-11234-5</a></li>
+</ul>
+
+<h3>Conference Presentations</h3>
+<ul>
+  <li><em>Rectifying and Understanding Significant Biases in Passive-Microwave-Derived Antarctic Sea Ice Concentration.</em> AGU Annual Meeting, 2025.</li>
+  <li><em>Towards Automated SAR Classification of Antarctic Sea Ice via Transfer Learning-Based Machine Learning.</em> AGU Annual Meeting, 2025.</li>
+  <li><em>Global gridded products of sea ice concentration, wave climate, and sea ice floe size distribution with ICESat-2: examining marginal ice zone variability and passive microwave uncertainties.</em> AGU Annual Meeting, 2024.</li>
 </ul>
 <hr>
 
