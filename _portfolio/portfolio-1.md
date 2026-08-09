@@ -2,6 +2,7 @@
 title: "Ongoing Research: High-Resolution SAR Sea Ice Classification Pipelines"
 excerpt: "Developing a massive-scale machine learning pipeline to map sea ice probability across the Western Arctic using Sentinel-1 SAR and Canadian Ice Service (CIS) charts. Currently exploring advanced feature engineering, gradient boosting baselines, and Deep Learning architectures. <br/><br/> <b>Skills:</b> <i>Machine Learning, SAR Feature Engineering, Deep Learning (WIP), Geospatial Big Data</i>"
 collection: portfolio
+project_category: Research
 ---
 
 <p><b>Core Competencies & Skills:</b><br/>
