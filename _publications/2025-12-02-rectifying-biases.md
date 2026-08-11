@@ -11,4 +11,4 @@ C. Horvat, A. Tavri, **K. Mohammadnezhad**, A. Nguyen , P. Heimbach. "Rectifying
 
 **Methodological Highlight:** Collaborated on diagnosing systematic errors in passive-microwave sea ice concentration estimates. Contributed to the multi-sensor polar remote-sensing analysis, validating passive-microwave retrievals against high-precision altimetry observations to establish error margins and improve data reliability.
 
-[📊 Poster Details](https://studio.m-anage.com/agu/agu25/meetingapp.cgi/Paper/1853609}
+[📊 Poster Details](https://studio.m-anage.com/agu/agu25/meetingapp.cgi/Paper/1853609)
