@@ -1,14 +1,15 @@
 ---
-title: "Paper Title Number 1"
+title: "Consistent Antarctic sea ice concentration biases from passive microwave satellites resolved via ICESat-2 altimetry"
 collection: publications
 category: manuscripts
-permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-slidesurl: 'https://academicpages.github.io/files/slides1.pdf'
-paperurl: 'https://academicpages.github.io/files/paper1.pdf'
-bibtexurl: 'https://academicpages.github.io/files/bibtex1.bib'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+permalink: /publication/2025-01-01-consistent-antarctic-biases
+date: 2025-01-01
+venue: 'Remote Sensing of Environment (Under Review)'
 ---
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+
+C. Horvat , A.Tavri, and **K. Mohammadnezhad**. "Consistent Antarctic sea ice concentration biases from passive microwave satellites resolved via ICESat-2 altimetry." *Submitted to Remote Sensing of Environment*. Currently Under Review. (Preprint available via *Research Square*). DOI: [10.21203/rs.3.rs-6272536/v1](https://doi.org/10.21203/rs.3.rs-6272536/v1)
+
+**Methodological Highlight:** Investigated systematic biases in passive-microwave sea ice concentration (SIC) retrievals. Developed an analytical framework utilizing ICESat-2 altimetry observations to identify, quantify, and resolve discrepancies in spatial features and morphological states of Antarctic sea ice, significantly enhancing the precision of polar remote sensing datasets.
+
+[📄 Read Preprint Version](https://doi.org/10.21203/rs.3.rs-6272536/v1){: .btn .btn--primary} 
+[⏳ Status: Under Review (RSE)](#){: .btn .btn--warning}
