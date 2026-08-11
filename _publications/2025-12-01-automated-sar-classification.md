@@ -11,4 +11,4 @@ venue: 'AGU Annual Meeting'
 
 **Methodological Highlight:** Designed a transfer-learning-based machine learning pipeline utilizing Synthetic-Aperture Radar (SAR) data. The architecture focuses on the automated extraction of high-resolution surface features, optimizing classification accuracy for complex, multi-sensor polar datasets.
 
-[📊 Conference Details](https://www.agu.org/annual-meeting){: .btn .btn--info}
+[📊 Poster Details](https://agu25.ipostersessions.com/?s=E5-E5-06-46-5E-A2-03-52-68-30-0B-0F-BF-A8-EF-25)
