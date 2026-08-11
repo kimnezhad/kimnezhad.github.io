@@ -11,4 +11,4 @@ C. Horvat, E. Buckley, A. Tavri, **K. Mohammadnezhad**. "Global gridded products
 
 **Methodological Highlight:** Synthesized global gridded products to evaluate marginal ice zone variability. The research integrated wave climate and floe-size distribution metrics with ICESat-2 data to quantify and contextualize passive microwave uncertainties in complex cryospheric environments.
 
-[📊 Poster Details](https://studio.m-anage.com/agu/agu24/meetingapp.cgi/Paper/1676368}
+[📊 Poster Details](https://studio.m-anage.com/agu/agu24/meetingapp.cgi/Paper/1676368)
