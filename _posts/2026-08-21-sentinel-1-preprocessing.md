@@ -46,4 +46,4 @@ The purpose of this preprocessing is not simply to produce visually improved ima
 
 By addressing these issues before model training, the workflow provides a consistent, physically rigorous foundation for sea-ice classification and subsequent multi-sensor data fusion.
 
-**The core implementation is available on GitHub:** [Insert Your GitHub Repo Link Here]
+**The core implementation is available on GitHub:** --
