@@ -46,4 +46,4 @@ The purpose of this preprocessing is not simply to produce visually improved ima
 
 By addressing these issues before model training, the workflow provides a consistent, physically rigorous foundation for sea-ice classification and subsequent multi-sensor data fusion.
 
-**The core implementation is available on GitHub:https://github.com/kimnezhad/s1-sar-preprocessor
+**The core implementation is available in my GitHub repository:** [kimnezhad/s1-sar-preprocessor](https://github.com/kimnezhad/s1-sar-preprocessor)
