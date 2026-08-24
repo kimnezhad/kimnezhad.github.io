@@ -35,6 +35,16 @@ The calibrated outputs are retained in linear $\sigma^0$ form. This preserves a 
 A specific focus of the workflow is the treatment of invalid pixels. During geocoding, pixels outside the valid radar observation footprint may be represented by zero-valued background pixels. In linear backscatter data, however, very low values can also correspond to valid surfaces such as calm open water or smooth ice. Treating both cases as zero creates an ambiguity that can introduce unwanted bias into machine-learning models.
 
 To preserve this distinction, invalid or out-of-coverage regions are represented as strict `no-data` values rather than being interpreted as physical observations. Valid open-water and sea-ice pixels within the Sentinel-1 imaging swath are not masked by this procedure. The resulting masks can subsequently be used during tile selection, training, and inference to exclude areas without valid observations.
+<figure style="text-align: center; margin: 2em 0;">
+    <img src="/images/s1-preprocessing-evaluation.png" 
+         alt="Six-panel evaluation showing Sentinel-1 radiometric calibration and polar reprojection" 
+         style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+    <figcaption style="font-size: 0.9em; color: #555; margin-top: 10px; line-height: 1.5; text-align: left;">
+        <strong>Figure 1:</strong> Evaluation of the <code>s1-sar-preprocessor</code> pipeline. While the workflow outputs linear $\sigma^0$ to preserve physical continuity for multi-sensor data fusion, the visual histograms here are scaled to decibels (dB). This highlights the bimodal separability—a critical feature for downstream machine learning tasks classifying sea ice versus open water. The spatial transects demonstrate the successful flattening of the cross-swath incidence angle bias.
+    </figcaption>
+</figure>
+
+
 
 ### Scalability and Reproducibility
 Because Sentinel-1 processing is memory-intensive, particularly for wide-swath products, the workflow explicitly releases SNAP product objects after processing and export. This is necessary for maintaining JVM stability during large batch operations.
