@@ -13,7 +13,7 @@ excerpt: "Designed a classical computer-vision pipeline that locates brain tumor
 This project applied the image-processing and computer-vision techniques I had learned in remote sensing to a different domain: detecting tumors in brain MRI. The core idea is that a healthy brain is roughly symmetric, so **a tumor shows up as an asymmetry between the two hemispheres**.
 
 <figure>
-  <img src="/images/projects/brain-tumor-detection/pipeline.png" alt="Tumor detection pipeline with example outputs">
+  <a href="/images/projects/brain-tumor-detection/pipeline.png" target="_blank" rel="noopener"><img src="/images/projects/brain-tumor-detection/pipeline.png" alt="Tumor detection pipeline with example outputs"></a>
   <figcaption>Processing pipeline (left) with example outputs at each stage (right).</figcaption>
 </figure>
 

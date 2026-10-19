@@ -14,8 +14,8 @@ excerpt: "Classified a high-resolution IKONOS image into bare soil, trees, build
 The goal was to classify a high-resolution image into four classes (**bare soil, trees, buildings, and roads**) and to study how the size of the hidden layer affects a neural network's accuracy and training behaviour.
 
 <figure class="half">
-  <img src="/images/projects/neural-network-landcover/ikonos.png" alt="IKONOS input image">
-  <img src="/images/projects/neural-network-landcover/roi.png" alt="Training and test sample locations">
+  <a href="/images/projects/neural-network-landcover/ikonos.png" target="_blank" rel="noopener"><img src="/images/projects/neural-network-landcover/ikonos.png" alt="IKONOS input image"></a>
+  <a href="/images/projects/neural-network-landcover/roi.png" target="_blank" rel="noopener"><img src="/images/projects/neural-network-landcover/roi.png" alt="Training and test sample locations"></a>
   <figcaption>Input IKONOS image (left) and the sample regions selected in ENVI (right).</figcaption>
 </figure>
 
@@ -36,13 +36,13 @@ Samples were exported from ENVI and arranged for MATLAB as a 3 × 3600 input mat
 I trained networks with **5, 10, 15, 20, and 25 neurons** in the hidden layer. For each, I selected the epoch with the best validation performance, which also guards against overfitting.
 
 <figure>
-  <img src="/images/projects/neural-network-landcover/training-5n.png" alt="Training performance, 5 neurons">
+  <a href="/images/projects/neural-network-landcover/training-5n.png" target="_blank" rel="noopener"><img src="/images/projects/neural-network-landcover/training-5n.png" alt="Training performance, 5 neurons"></a>
   <figcaption>Training progress for the 5-neuron network: gradient, validation checks, and cross-entropy for training, validation, and test sets.</figcaption>
 </figure>
 
 <figure class="half">
-  <img src="/images/projects/neural-network-landcover/classified-5n.png" alt="Classified map, 5 neurons">
-  <img src="/images/projects/neural-network-landcover/classes-5n.png" alt="Per-class maps, 5 neurons">
+  <a href="/images/projects/neural-network-landcover/classified-5n.png" target="_blank" rel="noopener"><img src="/images/projects/neural-network-landcover/classified-5n.png" alt="Classified map, 5 neurons"></a>
+  <a href="/images/projects/neural-network-landcover/classes-5n.png" target="_blank" rel="noopener"><img src="/images/projects/neural-network-landcover/classes-5n.png" alt="Per-class maps, 5 neurons"></a>
   <figcaption>Classification with 5 hidden neurons (left) and the individual class maps (right).</figcaption>
 </figure>
 
@@ -57,7 +57,7 @@ I trained networks with **5, 10, 15, 20, and 25 neurons** in the hidden layer. F
 | 25 | **91.2** | 60 | 54 |
 
 <figure>
-  <img src="/images/projects/neural-network-landcover/result-25n.png" alt="Results with 25 neurons">
+  <a href="/images/projects/neural-network-landcover/result-25n.png" target="_blank" rel="noopener"><img src="/images/projects/neural-network-landcover/result-25n.png" alt="Results with 25 neurons"></a>
   <figcaption>The best-performing network (25 hidden neurons): performance curve, confusion matrices, classified map, and class maps.</figcaption>
 </figure>
 

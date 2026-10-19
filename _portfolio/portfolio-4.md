@@ -18,7 +18,7 @@ The core of this project involved processing large volumes of **MODIS** satellit
 * **Standard Vegetation Index (SVI):** Provided a relative temporal comparison of vegetation conditions to assess long-term drought trends.
 
 <figure>
-  <img src="/images/portfolio/drought-indices-2005.png" alt="VCI, TCI, SVI and VHI drought maps of Iran, 2005">
+  <a href="/images/portfolio/drought-indices-2005.png" target="_blank" rel="noopener"><img src="/images/portfolio/drought-indices-2005.png" alt="VCI, TCI, SVI and VHI drought maps of Iran, 2005"></a>
   <figcaption>VCI, TCI, SVI, and VHI maps of Iran for day 121 of 2005. Comparing the four indices showed consistent drought patterns.</figcaption>
 </figure>
 

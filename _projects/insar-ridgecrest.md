@@ -16,15 +16,15 @@ The goal was to map the ground deformation caused by the **2019 Ridgecrest earth
 InSAR measures the phase difference between two SAR acquisitions of the same area. After removing the contributions of the flat Earth, topography, and noise, the remaining phase reflects changes in the sensor-to-ground distance, so a pre- and post-event pair reveals how much the surface moved along the satellite's line of sight.
 
 <figure class="half">
-  <img src="/images/projects/insar-ridgecrest/study-area.png" alt="Study area in Southern California">
-  <img src="/images/projects/insar-ridgecrest/quicklooks.png" alt="Sentinel-1 quick-look images">
+  <a href="/images/projects/insar-ridgecrest/study-area.png" target="_blank" rel="noopener"><img src="/images/projects/insar-ridgecrest/study-area.png" alt="Study area in Southern California"></a>
+  <a href="/images/projects/insar-ridgecrest/quicklooks.png" target="_blank" rel="noopener"><img src="/images/projects/insar-ridgecrest/quicklooks.png" alt="Sentinel-1 quick-look images"></a>
   <figcaption>Study area (left) and Sentinel-1 quick-looks for 28 June and 10 July 2019 (right).</figcaption>
 </figure>
 
 ## Workflow
 
 <figure>
-  <img src="/images/projects/insar-ridgecrest/workflow.png" alt="InSAR processing workflow">
+  <a href="/images/projects/insar-ridgecrest/workflow.png" target="_blank" rel="noopener"><img src="/images/projects/insar-ridgecrest/workflow.png" alt="InSAR processing workflow"></a>
   <figcaption>Processing chain implemented in SNAP.</figcaption>
 </figure>
 
@@ -34,36 +34,52 @@ InSAR measures the phase difference between two SAR acquisitions of the same are
 
 **3. Debursting.** Sentinel-1 TOPS data are acquired in bursts, which leave horizontal seams in the interferogram. Debursting merges them into a continuous image.
 
-<figure class="half">
-  <img src="/images/projects/insar-ridgecrest/interferogram.png" alt="Initial interferogram">
-  <img src="/images/projects/insar-ridgecrest/deburst.png" alt="Before and after debursting">
-  <figcaption>Initial interferogram (left) and the result before and after debursting (right).</figcaption>
+<figure>
+  <a href="/images/projects/insar-ridgecrest/interferogram.png" target="_blank" rel="noopener"><img src="/images/projects/insar-ridgecrest/interferogram.png" alt="Initial interferogram"></a>
+  <figcaption>Initial interferogram. Each colour cycle (fringe) is a 2π phase change.</figcaption>
+</figure>
+
+<figure>
+  <a href="/images/projects/insar-ridgecrest/deburst.png" target="_blank" rel="noopener"><img src="/images/projects/insar-ridgecrest/deburst.png" alt="Before and after debursting"></a>
+  <figcaption>Before (left) and after (right) debursting: the horizontal burst seams are removed.</figcaption>
 </figure>
 
 **4. Topographic phase removal.** Using a DEM, I removed the phase contribution of topography. Afterwards, fringes in high-relief areas smoothed out considerably, while tight fringes remained around the rupture zone, which is where real deformation is concentrated.
 
 **5. Goldstein phase filtering** reduced phase noise so that the fringe pattern became clearer.
 
-<figure class="half">
-  <img src="/images/projects/insar-ridgecrest/topo-removed.png" alt="After topographic phase removal">
-  <img src="/images/projects/insar-ridgecrest/goldstein.png" alt="After Goldstein filtering">
-  <figcaption>After topographic phase removal (left) and after Goldstein filtering (right).</figcaption>
+<figure>
+  <a href="/images/projects/insar-ridgecrest/topo-removed.png" target="_blank" rel="noopener"><img src="/images/projects/insar-ridgecrest/topo-removed.png" alt="After topographic phase removal"></a>
+  <figcaption>After topographic phase removal.</figcaption>
+</figure>
+
+<figure>
+  <a href="/images/projects/insar-ridgecrest/goldstein.png" target="_blank" rel="noopener"><img src="/images/projects/insar-ridgecrest/goldstein.png" alt="After Goldstein filtering"></a>
+  <figcaption>After Goldstein phase filtering.</figcaption>
 </figure>
 
 **6. Phase unwrapping.** The interferometric phase is only known modulo 2π (wrapped to [−π, π]). Unwrapping detects the 2π jumps and adds the correct integer multiples of 2π to recover a continuous phase field. Profiles drawn across the fringes show the effect clearly: the sawtooth pattern of the wrapped phase becomes a smooth curve.
 
-<figure class="half">
-  <img src="/images/projects/insar-ridgecrest/profile-wrapped.png" alt="Phase profile before unwrapping">
-  <img src="/images/projects/insar-ridgecrest/profile-unwrapped.png" alt="Phase profile after unwrapping">
-  <figcaption>The same profile before (left) and after (right) unwrapping.</figcaption>
+<figure>
+  <a href="/images/projects/insar-ridgecrest/profile-wrapped.png" target="_blank" rel="noopener"><img src="/images/projects/insar-ridgecrest/profile-wrapped.png" alt="Phase profile before unwrapping"></a>
+  <figcaption>Phase profile across the fringes before unwrapping (sawtooth pattern).</figcaption>
+</figure>
+
+<figure>
+  <a href="/images/projects/insar-ridgecrest/profile-unwrapped.png" target="_blank" rel="noopener"><img src="/images/projects/insar-ridgecrest/profile-unwrapped.png" alt="Phase profile after unwrapping"></a>
+  <figcaption>The same profile after unwrapping (continuous phase).</figcaption>
 </figure>
 
 **7. Phase to displacement and geocoding.** Finally, I converted the unwrapped phase into line-of-sight displacement and terrain-corrected the result to geographic coordinates.
 
-<figure class="half">
-  <img src="/images/projects/insar-ridgecrest/displacement.png" alt="Line-of-sight displacement in radar geometry">
-  <img src="/images/projects/insar-ridgecrest/displacement-geocoded.png" alt="Geocoded displacement map">
-  <figcaption>Line-of-sight displacement in radar geometry (left) and the geocoded displacement map (right).</figcaption>
+<figure>
+  <a href="/images/projects/insar-ridgecrest/displacement.png" target="_blank" rel="noopener"><img src="/images/projects/insar-ridgecrest/displacement.png" alt="Line-of-sight displacement in radar geometry"></a>
+  <figcaption>Line-of-sight displacement in radar geometry.</figcaption>
+</figure>
+
+<figure>
+  <a href="/images/projects/insar-ridgecrest/displacement-geocoded.png" target="_blank" rel="noopener"><img src="/images/projects/insar-ridgecrest/displacement-geocoded.png" alt="Geocoded displacement map"></a>
+  <figcaption>Geocoded line-of-sight displacement map.</figcaption>
 </figure>
 
 ## Takeaways

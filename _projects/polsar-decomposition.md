@@ -14,7 +14,7 @@ excerpt: "Interpreted fully polarimetric EMISAR data over Foulum, Denmark, using
 The goal was to interpret polarimetric SAR data for different land covers by identifying the dominant *scattering mechanism* of each surface, then relating those mechanisms to land-cover types. Along the way I compared filtering strategies and extracted polarimetric features that I later used for [supervised classification](/projects/polsar-svm/).
 
 <figure>
-  <img src="/images/projects/polsar-decomposition/emisar-foulum.png" alt="EMISAR polarimetric image of Foulum, Denmark">
+  <a href="/images/projects/polsar-decomposition/emisar-foulum.png" target="_blank" rel="noopener"><img src="/images/projects/polsar-decomposition/emisar-foulum.png" alt="EMISAR polarimetric image of Foulum, Denmark"></a>
   <figcaption>The EMISAR scene after full-resolution extraction.</figcaption>
 </figure>
 
@@ -27,16 +27,16 @@ The Krogager decomposition splits the scattering matrix into three physical comp
 - **Helix:** a circular-polarization component that captures more complex, volume-like and diffuse scattering.
 
 <figure class="third">
-  <img src="/images/projects/polsar-decomposition/krogager-sphere.jpg" alt="Sphere component">
-  <img src="/images/projects/polsar-decomposition/krogager-diplane.jpg" alt="Diplane component">
-  <img src="/images/projects/polsar-decomposition/krogager-helix.jpg" alt="Helix component">
+  <a href="/images/projects/polsar-decomposition/krogager-sphere.jpg" target="_blank" rel="noopener"><img src="/images/projects/polsar-decomposition/krogager-sphere.jpg" alt="Sphere component"></a>
+  <a href="/images/projects/polsar-decomposition/krogager-diplane.jpg" target="_blank" rel="noopener"><img src="/images/projects/polsar-decomposition/krogager-diplane.jpg" alt="Diplane component"></a>
+  <a href="/images/projects/polsar-decomposition/krogager-helix.jpg" target="_blank" rel="noopener"><img src="/images/projects/polsar-decomposition/krogager-helix.jpg" alt="Helix component"></a>
   <figcaption>Sphere, diplane, and helix components (left to right).</figcaption>
 </figure>
 
 Assigning the three components to R, G, and B produces a composite in which each land cover has a distinct signature:
 
 <figure>
-  <img src="/images/projects/polsar-decomposition/krogager-rgb-annotated.png" alt="Krogager RGB composite with numbered regions">
+  <a href="/images/projects/polsar-decomposition/krogager-rgb-annotated.png" target="_blank" rel="noopener"><img src="/images/projects/polsar-decomposition/krogager-rgb-annotated.png" alt="Krogager RGB composite with numbered regions"></a>
   <figcaption>Krogager composite (R = sphere, G = diplane, B = helix) with the six regions interpreted below.</figcaption>
 </figure>
 
@@ -63,7 +63,7 @@ The Cloude–Pottier decomposition uses the eigenvalues $$\lambda_1 \ge \lambda_
 $$H = -\sum_{i=1}^{3} P_i \log_3 P_i$$
 
 <figure>
-  <img src="/images/projects/polsar-decomposition/entropy.jpg" alt="Entropy image">
+  <a href="/images/projects/polsar-decomposition/entropy.jpg" target="_blank" rel="noopener"><img src="/images/projects/polsar-decomposition/entropy.jpg" alt="Entropy image"></a>
   <figcaption>Entropy. Forest appears bright (random scattering); water appears dark (one dominant mechanism).</figcaption>
 </figure>
 
@@ -72,7 +72,7 @@ $$H = -\sum_{i=1}^{3} P_i \log_3 P_i$$
 $$A = \frac{\lambda_2 - \lambda_3}{\lambda_2 + \lambda_3}$$
 
 <figure>
-  <img src="/images/projects/polsar-decomposition/anisotropy.jpg" alt="Anisotropy image">
+  <a href="/images/projects/polsar-decomposition/anisotropy.jpg" target="_blank" rel="noopener"><img src="/images/projects/polsar-decomposition/anisotropy.jpg" alt="Anisotropy image"></a>
   <figcaption>Anisotropy.</figcaption>
 </figure>
 
@@ -81,12 +81,12 @@ $$A = \frac{\lambda_2 - \lambda_3}{\lambda_2 + \lambda_3}$$
 $$\bar{\alpha} = \sum_{i=1}^{3} P_i \, \alpha_i$$
 
 <figure>
-  <img src="/images/projects/polsar-decomposition/alpha.jpg" alt="Alpha angle image">
+  <a href="/images/projects/polsar-decomposition/alpha.jpg" target="_blank" rel="noopener"><img src="/images/projects/polsar-decomposition/alpha.jpg" alt="Alpha angle image"></a>
   <figcaption>Mean alpha angle. Water is dark (near 0°), forest and urban areas are bright, and agricultural fields fall in between depending on crop type and condition.</figcaption>
 </figure>
 
 <figure>
-  <img src="/images/projects/polsar-decomposition/h-a-alpha-rgb.jpg" alt="H/A/alpha RGB composite">
+  <a href="/images/projects/polsar-decomposition/h-a-alpha-rgb.jpg" target="_blank" rel="noopener"><img src="/images/projects/polsar-decomposition/h-a-alpha-rgb.jpg" alt="H/A/alpha RGB composite"></a>
   <figcaption>H/A/α composite (R = entropy, G = anisotropy, B = alpha).</figcaption>
 </figure>
 

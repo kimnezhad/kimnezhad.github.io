@@ -18,14 +18,18 @@ Building on the polarimetric features extracted in the [decomposition project](/
 The first model used four eigenvalue-based features: **entropy, anisotropy, alpha, and beta**.
 
 <figure>
-  <img src="/images/projects/polsar-svm/features-4.png" alt="The four input features">
+  <a href="/images/projects/polsar-svm/features-4.png" target="_blank" rel="noopener"><img src="/images/projects/polsar-svm/features-4.png" alt="The four input features"></a>
   <figcaption>The four input features.</figcaption>
 </figure>
 
-<figure class="half">
-  <img src="/images/projects/polsar-svm/classified-4features.png" alt="SVM classification with 4 features">
-  <img src="/images/projects/polsar-svm/confusion-4features.png" alt="Confusion matrix, 4 features">
-  <figcaption>Classification result and confusion matrix with 4 features (overall accuracy ≈ 70.4%, κ = 0.6045).</figcaption>
+<figure>
+  <a href="/images/projects/polsar-svm/classified-4features.png" target="_blank" rel="noopener"><img src="/images/projects/polsar-svm/classified-4features.png" alt="SVM classification with 4 features"></a>
+  <figcaption>Classification result with 4 features.</figcaption>
+</figure>
+
+<figure>
+  <a href="/images/projects/polsar-svm/confusion-4features.png" target="_blank" rel="noopener"><img src="/images/projects/polsar-svm/confusion-4features.png" alt="Confusion matrix, 4 features"></a>
+  <figcaption>Confusion matrix with 4 features (overall accuracy ≈ 70.3%, κ = 0.6045).</figcaption>
 </figure>
 
 - **Water** was separated almost perfectly (≈99% producer's accuracy), since its uniform, specular scattering is very different from the other classes.
@@ -33,7 +37,7 @@ The first model used four eigenvalue-based features: **entropy, anisotropy, alph
 - **Urban** had the lowest accuracy. The buildings in this scene are low, so they do not produce a strongly distinctive double-bounce return, and visually the urban class resembles the others in all four features.
 
 <figure>
-  <img src="/images/projects/polsar-svm/classes-4features.png" alt="Per-class maps">
+  <a href="/images/projects/polsar-svm/classes-4features.png" target="_blank" rel="noopener"><img src="/images/projects/polsar-svm/classes-4features.png" alt="Per-class maps"></a>
   <figcaption>Individual class maps from the 4-feature model.</figcaption>
 </figure>
 
@@ -41,10 +45,14 @@ The first model used four eigenvalue-based features: **entropy, anisotropy, alph
 
 The second model used all 13 extracted features: entropy, anisotropy, alpha, beta, gamma, delta, the three Krogager components, the three Freeman–Durden components, and span.
 
-<figure class="half">
-  <img src="/images/projects/polsar-svm/classified-13features.png" alt="SVM classification with 13 features">
-  <img src="/images/projects/polsar-svm/confusion-13features.png" alt="Confusion matrix, 13 features">
-  <figcaption>Classification result and confusion matrix with 13 features (overall accuracy ≈ 75.5%, κ = 0.6734).</figcaption>
+<figure>
+  <a href="/images/projects/polsar-svm/classified-13features.png" target="_blank" rel="noopener"><img src="/images/projects/polsar-svm/classified-13features.png" alt="SVM classification with 13 features"></a>
+  <figcaption>Classification result with all 13 features.</figcaption>
+</figure>
+
+<figure>
+  <a href="/images/projects/polsar-svm/confusion-13features.png" target="_blank" rel="noopener"><img src="/images/projects/polsar-svm/confusion-13features.png" alt="Confusion matrix, 13 features"></a>
+  <figcaption>Confusion matrix with 13 features (overall accuracy ≈ 75.5%, κ = 0.6734).</figcaption>
 </figure>
 
 ## Takeaways
