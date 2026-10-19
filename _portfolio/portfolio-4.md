@@ -17,8 +17,12 @@ The core of this project involved processing large volumes of **MODIS** satellit
 * **Vegetation Health Index (VHI):** Derived from a combination of LST and NDVI to illustrate the overall severity of drought based on both plant health and thermal influence.
 * **Standard Vegetation Index (SVI):** Provided a relative temporal comparison of vegetation conditions to assess long-term drought trends.
 
+<figure>
+  <img src="/images/portfolio/drought-indices-2005.png" alt="VCI, TCI, SVI and VHI drought maps of Iran, 2005">
+  <figcaption>VCI, TCI, SVI, and VHI maps of Iran for day 121 of 2005. Comparing the four indices showed consistent drought patterns.</figcaption>
+</figure>
+
 ## Validation & Key Findings
 * **Index Consistency:** Cross-comparison among the four derived indicators (VCI, TCI, VHI, and SVI) demonstrated high compatibility, confirming the reliability of the processed MODIS data with no major spatial discrepancies.
 * **Ground-Truth Validation:** To evaluate the accuracy of the satellite-derived results, the generated maps for 2014 were validated against the Standardized Precipitation Index (SPI) drought maps produced by the National Meteorological Organization. 
 * **Conclusion:** The remote sensing pipeline yielded highly acceptable results, with the satellite-derived drought maps showing strong consistency with both the SPI index and the established climatic conditions of Iran's diverse regions.
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
