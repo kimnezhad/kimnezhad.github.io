@@ -63,3 +63,7 @@
   opacity: 0.9;
   cursor: zoom-in;
 }
+
+.page__content figure:not(.half):not(.third) figcaption {
+  text-align: center;
+}
